@@ -24,7 +24,7 @@ public class Padre {
 	
 	@Override
 	public String toString() {
-		return "Virtudes: " + virtudes + " Defectos: " + defectos;
+		return "Virtudes: " + virtudes + " Defectos: " + defectos + " Ahorrado: "+ totalAhorrado;
 	}
 	
 	
