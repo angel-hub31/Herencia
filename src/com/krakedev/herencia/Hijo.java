@@ -19,6 +19,14 @@ public class Hijo extends Padre {
 		return super.toString() + " Juguetes: " + juguetes;
 	}
 	
+	//se sobreescribe el metodo ahorrar al 50%
+	@Override
+	public void ahorrar(double monto) {
+		double montoReducido = monto * 0.5;
+		super.ahorrar(montoReducido);
+		
+	}
+	
 	
 	
 
