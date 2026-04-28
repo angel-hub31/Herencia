@@ -6,9 +6,9 @@ public class Hijo extends Padre {
 	
 	//se crea un constructor que recibe parametros
 	
-	public Hijo(int virtudes,int defectos, int juguetes) {
+	public Hijo(String nombre,int virtudes,int defectos, int juguetes) {
 		//usamos super() para inicializar virtudes y defectos en la clase Padre
-		super(virtudes,defectos);
+		super(nombre,virtudes,defectos);
 		//asignamos directamente el nuevo atributo
 		this.juguetes = juguetes;
 		

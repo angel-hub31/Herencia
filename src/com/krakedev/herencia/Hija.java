@@ -4,8 +4,8 @@ package com.krakedev.herencia;
 //herede todos los atributos de la clase padre
 public class Hija extends Padre {
 	// se crea costructor heredado de Padre que recibe virtudes y defectos
-	public Hija(int virtudes, int defectos) {
-		super(virtudes, defectos);
+	public Hija(String nombre,int virtudes, int defectos) {
+		super(nombre,virtudes, defectos);
 
 	}
 

@@ -4,6 +4,7 @@ public class Padre {
 	private int defectos;
 	private int virtudes;
 	private double totalAhorrado;
+	private String nombre;
 	// en source: genera automaticamento el toString
 	//@Override
 	//public String toString() {
@@ -16,7 +17,8 @@ public class Padre {
 		//System.out.println("Soy el contructor vacio del padre");
 //	}
 	
-	public Padre(int virtudes, int defectos) {
+	public Padre(String nombre ,int virtudes, int defectos) {
+		this.nombre=nombre;
 		this.virtudes=virtudes;
 		this.defectos=defectos;
 		
@@ -24,7 +26,7 @@ public class Padre {
 	
 	@Override
 	public String toString() {
-		return "Virtudes: " + virtudes + " Defectos: " + defectos + " Ahorrado: "+ totalAhorrado;
+		return "Nombre: "+nombre+ " Virtudes: " + virtudes + " Defectos: " + defectos + " Ahorrado: "+ totalAhorrado;
 	}
 	
 	
@@ -48,6 +50,15 @@ public class Padre {
 
 	public void setTotalAhorrado(double totalAhorrado) {
 		this.totalAhorrado = totalAhorrado;
+	}
+	
+
+	public String getNombre() {
+		return nombre;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
 	}
 
 	//public void: no retorna nada
