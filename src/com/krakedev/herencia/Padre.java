@@ -23,7 +23,7 @@ public class Padre {
 	
 	@Override
 	public String toString() {
-		return "hola";
+		return "Virtudes: " + virtudes + " Defectos: " + defectos;
 	}
 	
 	
