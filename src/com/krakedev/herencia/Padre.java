@@ -3,6 +3,7 @@ package com.krakedev.herencia;
 public class Padre {
 	private int defectos;
 	private int virtudes;
+	private double totalAhorrado;
 	// en source: genera automaticamento el toString
 	//@Override
 	//public String toString() {
@@ -40,6 +41,15 @@ public class Padre {
 	public void setVirtudes(int virtudes) {
 		this.virtudes = virtudes;
 	}
+	
+	public double getTotalAhorrado() {
+		return totalAhorrado;
+	}
+
+	public void setTotalAhorrado(double totalAhorrado) {
+		this.totalAhorrado = totalAhorrado;
+	}
+
 	//public void: no retorna nada
 	public void imprimir() {
 		System.out.println("Virtudes: " + virtudes);
