@@ -13,6 +13,13 @@ public class Hijo extends Padre {
 		this.juguetes = juguetes;
 		
 	}
+// sobreescribimos el metodo toString mostrando el valor de juguetes
+	@Override
+	public String toString() {
+		return super.toString() + " Juguetes: " + juguetes;
+	}
+	
+	
 	
 
 }
